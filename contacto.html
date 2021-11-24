@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <style>
+        body {
+
+            margin-right: 100px;
+            margin-left: 100px;
+            font-family: Gotham Book;
+        }
+
+       
+        a {
+            color: rgb(0, 0, 0);
+        }
+
+   
+        .superior {
+            background-color: rgb(252, 209, 223);
+            margin-left: 10px;
+            margin-right: 640px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .menu {
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(252, 209, 223);
+            font-size: 14px;
+        }
+
+        @font-face {
+            font-family: dearlove;
+            src: url(dearlove);
+        }
+        @font-face {
+            font-family: Gotham Book;
+            src: url(Gotham\ Book.otf);
+        }
+
+
+        h1 {
+            
+            text-align: center;
+            color: rgb(213, 96, 115);
+            font-family: dearlove;
+            font-size: 40px;
+        }
+
+        h3 {
+            background-color: rgb(255, 226, 231);
+            border: rgb(209, 136, 145) solid;
+            text-align: center;
+            margin-left: 150px;
+            margin-right: 150px;
+            border-radius: 5px;
+        }
+
+        .formulario {
+            border: rgb(209, 136, 145) solid;
+            text-align: left;
+            border-radius: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: rgb(253, 235, 237);
+            padding-left: 30px;
+        }
+        .boton{
+            background-color: white;
+            border: rgb(177, 134, 134) solid;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    </head>
+
+    <body>
+        <hr>
+        <div>
+            <table>
+
+                <h2 class="superior"> <a href="index.html">Inicio</a> / <a href="contacto.html">Contacto</a> </h2>
+
+            </table>
+
+        </div>
+
+
+
+
+
+        <hr>
+        <table>
+            <h4 class="menu"> <a href="sombradeojos.html"> Sombra de ojos</a> /
+                <a href="pintalabios.html">Pintalabios</a> /
+                <a href="mascaradepestanas.html"> Máscara de pestañas</a> /
+                <a href="bases.html">Base</a> / <a href="contorno.html">Contorno</a> /
+                <a href="iluminador.html">Iluminador</a>/
+                <a href="desmaquillante.html">Desmaquillante</a>
+            </h4>
+
+        </table>
+        <hr>
+
+        <h1>Contacto</h1>
+        <h3>Rellena este formulario para contactar con nosotros.</h3>
+
+        <form action="formulario.php" method="get">
+            <div class="formulario">
+                <p> Nombre <br><input type="text" placeholder="Escribe tu nombre">
+                </p>
+                <p> Apellidos <br><input type="text" placeholder="Escribe tus apellidos" size="30px"></p>
+                <p>Escriba su edad <input type="number" name="Edad" min="1" max="100" placeholder="Edad"></p>
+                <p>Fecha de nacimiento <input type="date" name="Fecha"></p>
+                <p> Código postal <br><input type="text" placeholder="Escribe tu código postal" size="20px"></p>
+                <p> Teléfono <br> <input type="text" placeholder="Escribe tu número de teléfono" size="30px"></p>
+                <p>Escriba su correo <br><input type="email" name="correo" size="40" placeholder="user@dominio.com">
+                </p>
+                <p>
+                    Elige tu color favorito: <input type="color" name="colorElegido" value="a0000F">
+                </p>
+
+                <textarea name="caja" id="" cols="30" rows="10" placeholder="Escribe aquí un mensaje"></textarea>
+
+                <p>
+                    <input type="submit" value="Enviar" class="boton">
+                    <input type="reset" value="Borrar" class="boton">
+    
+                </p>
+        </form>
+        </div>
+    </body>
+
+
+
+</html>

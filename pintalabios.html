@@ -1,0 +1,219 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pintalabios</title>
+
+    <style>
+        body {
+
+            margin-right: 100px;
+            margin-left: 100px;
+font-family: Gotham Book;
+        }
+
+        a {
+            color: rgb(0, 0, 0);
+            
+        }
+
+        .superior {
+            background-color: rgb(252, 209, 223);
+            margin-left: 10px;
+            margin-right: 640px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .menu {
+            font-size: 14px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(252, 209, 223);
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        @font-face {
+            font-family: dearlove;
+            src: url(dearlove);
+        }
+        @font-face {
+            font-family: Gotham Book;
+            src: url(Gotham\ Book.otf);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(213, 96, 115);
+            font-family: dearlove;
+            font-size: 40px;
+
+
+        }
+
+        fieldset {
+
+            border: solid 2px rgb(190, 104, 125);
+        }
+
+
+
+        .permanente {
+            margin-left: 150px;
+            width: 500px;
+            height: 420px;
+        }
+
+
+
+        .brillante {
+            margin-left: 150px;
+            width: 450px;
+            height: 220px;
+            margin-bottom: 10px;
+
+        }
+
+        .caja1 {
+            background-color: rgb(252, 209, 223);
+            border: solid 1px;
+            list-style-position: inside;
+            border-radius: 15px;
+            margin-right: 120px;
+            margin-left: 150px;
+            padding-right: 100px;
+        }
+
+        .opinion {
+            background-color: rgb(236, 176, 186);
+            border: solid 1px;
+            border-radius: 15px;
+            text-align: center;
+            border-radius: 15px;
+            margin-right: 120px;
+            margin-left: 140px;
+            
+        }
+
+        .piedepagina {
+            background-color: rgb(240, 163, 190);
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .boton {
+            background-color: rgb(255, 232, 236);
+            border: rgb(177, 134, 134) solid;
+        }
+
+        h3 {
+            background-color: rgb(255, 228, 237);
+border-radius: 15px;
+margin-left: 150px;
+margin-right: 150px;
+            text-align: center;
+        }
+   
+    </style>
+
+</head>
+
+<body>
+    <hr>
+    <div>
+        <table>
+
+            <h2 class="superior"> <a href="index.html">Inicio</a> / <a href="contacto.html"> Contacto</a> </h2>
+
+        </table>
+
+    </div>
+
+
+
+
+
+    <hr>
+    <table>
+        <h4 class="menu"> <a href="sombradeojos.html"> Sombra de ojos</a> /
+            <a href="pintalabios.html">Pintalabios</a> /
+            <a href="mascaradepestanas.html"> Máscara de pestañas</a> /
+            <a href="bases.html">Base</a> / <a href="contorno.html">Contorno</a> /
+            <a href="iluminador.html">Iluminador</a>/
+            <a href="desmaquillante.html">Desmaquillante</a>
+        </h4>
+
+    </table>
+    <hr>
+    <h1>Pintalabios</h1>
+
+    <h3 class="duracion">Principales tipos de pintalabios según su duración</h3>
+    <!-- Como elegir tipo de pintalabios según lo que dure -->
+    <div class="caja1">
+        <ul>
+            <li> <b> Larga duración:</b> más de seis horas en tus labios. </li>
+            <li><b>Permanentes:</b> puedes llevarlos mas de 12 horas sin que se muevan de su sitio, incluso si comes,
+                bebes...</li>
+
+        </ul>
+    </div> <br>
+    <div class="opinion">
+        <p>Desde mi experiencia los mejores pintalabios permanentes son los de la marca Maybelline.</p>
+    </div>
+    <br>
+    <img class="permanente" src="imagenes/pintalabios_permanentes.jpeg">
+
+
+    <h3 class="acabado">Según su acabado</h3>
+    <!-- Como elegir tipo de pintalabios según el resultado que deje -->
+
+    <div class="caja1">
+        <ul>
+            <li><b>Acabado mate:</b>no tiene brillos, con el que conseguirás en tus labios un color intenso</li>
+            <li> <b>Acabado metalizado: </b> dan un efecto de volumen y jugosidad, tonos intensos con una sola
+                pasada con colores muy favorecedores para cualquier tono de piel. </li>
+            <li><b>Acabado brillante: </b>son extra hidratantes, son el producto ideal para convertir en brillante
+                cualquier
+                pintalabios y darles un toque aún más especial.</li>
+        </ul>
+    </div><br>
+    <img class="brillante" src="imagenes/brillante_pintalabios.jpeg" alt="labios"><br>
+
+
+    <!-- Pequeña encuesta para ver que le interesa mas al consumidor, de los tipos que hemos visto antes. -->
+    <fieldset>
+        <form action="formulario.nuevo">
+            <legend>ENCUESTA </legend>
+            <p>¿Que duración de pintalabios te interesa más?</p>
+            <p><input type="radio" name="duración"> Larga duración
+                <input type="radio" name="duración"> Permanente
+
+            </p>
+            <p>¿Cúal es tu acabado favorito?</p>
+            <p><input type="radio" name="acabado"> Mate
+                <input type="radio" name="acabado"> Metalizado
+                <input type="radio" name="acabado"> Brillante
+            </p>
+            <p>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Borrar" class="boton">
+
+            </p>
+
+
+
+    </fieldset>
+    </form>
+    <p class="piedepagina">Página construida por Rebeca López</p>
+
+</body>
+
+
+
+</html>
